@@ -1,14 +1,15 @@
+
 import './App.css'
-import Flexbox from './FlexBox'
+import FlexLayout from './FlexLayout.tsx'
 
 function App() {
-
-
-  return (
-    <>
-      <Flexbox></Flexbox>
-    </>
+  return(
+    <div className="App">
+      <h1></h1>
+      <FlexLayout/>
+    </div>
   )
+  
 }
 
 export default App
